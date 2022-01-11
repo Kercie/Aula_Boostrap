@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Página</title>
+
+    <!--conjunto de estilo para classes e componentes-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <!--definir estilo-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!--botao conforme site do bootstrap-->
+    <button type="button" class="btn btn-light">Light</button>
+
+    <!--definir estilo para a barra de navegacao (navbar)| itens na horizontal-->
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="#">
+
+            <!-- exibir img utilizar atributo source (src)-->
+            <img src="img/6.jpg" class="rounded-circle" width="100" height="100">
+        </a>
+        <!-- div criar uma divisao e estilizar o que estiver dentro dela-->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quemsomos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#serviços">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="quemsomos">
+        <!--utilizando uma classe criada pelo proprio autor-->
+        <div class="container-fluid quem-somos text-center margin">
+            <h3 class="margin">Quem somos</h3>
+            <img src="img/3.jpg" class="rounded-circle" width="400" height="400">
+            <h3>Somos um time comprometido em cuidar do seu felino da melhor forma em apenas um clique</h3>
+        </div>
+    </section>
+    <selection id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3 class="margin">Parceiros</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="img/img1.png" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/img2.png" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </selection>
+    <section id="serviços">
+        <div class="container-fluid text-center margin serviços">
+            <h3 class="margin">Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p> Se seu cat precisa de banho, tosa e muito carinho... Aqui é o lugar dele. Baixe o nosso app
+                            e agende seu horário.</p>
+                        <img src="img/4.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Nunca foi tao fácil e simples viajar sem se preocupar onde seu cat irá ficar. Aqui ninguém
+                            fica sozinho!</p>
+                        <img src="img/5.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Kerciely Fernandes</p>
+    </footer>
+
+</body>
+
+</html>
